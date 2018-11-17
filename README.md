@@ -1,3 +1,55 @@
+# Project lab-react-auth
+
+Sample React project with Google & Facebook Authentication
+
+Open your project folder in Terminal:
+
+`npx create-react-app lab-react-auth`
+
+Launch Visual Studio Code > Open lab-react-auth folder.
+
+---
+
+## Packages
+
+Routing
+
+`npm i react-router react-router-dom --save`
+
+Styling
+
+`npm i bootstrap reactstrap react-router-bootstrap --save`
+
+Authentication
+
+`npm i react-google-login react-facebook-login`
+
+---
+
+## Components
+
+### index.js
+
+Entry point to application. Contains route component.
+
+### Routes.js
+
+Handles the routing for our application. Contains the app component.
+
+### App.js
+
+Container for navigation and page components: Login, Register, Logout.
+
+### Homepage.js
+
+React standard Welcome page with svg logo.
+
+### LoginPage.js
+
+Login page to authenticate with Google or Facebook. Obtain Google clientID from https://console.developers.google.com. Obtain Facebook appID from https://developers.facebook.com/.
+
+---
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
