@@ -10,12 +10,12 @@ const responseFacebook = response => {
 	console.log(response);
 };
 
-const Login = () => {
+const LoginPage = () => {
 	return (
 		<div className="span-12">
 			<div>
 				<GoogleLogin
-					clientId="peaceful-basis-222804"
+					clientId=""
 					buttonText="Login"
 					onSuccess={responseGoogle}
 					onFailure={responseGoogle}
@@ -24,7 +24,7 @@ const Login = () => {
 			<br />
 			<div>
 				<FacebookLogin
-					appId="290228931607041"
+					appId=""
 					autoLoad={true}
 					fields="name,email,picture"
 					callback={responseFacebook}
@@ -34,4 +34,4 @@ const Login = () => {
 	);
 };
 
-export default Login;
+export default LoginPage;
