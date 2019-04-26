@@ -15,7 +15,7 @@ Launch Visual Studio Code > Open lab-react-auth folder.
 Routing
 
 `npm i react-router react-router-dom --save`
-
+`
 Styling
 
 `npm i bootstrap reactstrap react-router-bootstrap --save`
